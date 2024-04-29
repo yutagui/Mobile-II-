@@ -1,0 +1,9 @@
+.tituloMusica{
+    margin: 0px;
+    padding: 10px;
+    font-size: medium;
+}
+.subtituloMusica{
+    font-size: small;
+    padding: 10px;
+}
