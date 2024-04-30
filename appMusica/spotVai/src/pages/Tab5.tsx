@@ -7,11 +7,11 @@ const Tab5: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color="secondary">
           <IonTitle>Login </IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent fullscreen color="medium">
         {/* <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Tab 5</IonTitle>

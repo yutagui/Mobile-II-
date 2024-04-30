@@ -1,0 +1,9 @@
+.imagemArtista{
+
+}
+.nomeArtista{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}

@@ -20,6 +20,12 @@ import Tab5 from './pages/Tab5';
 import Tab6 from './pages/Tab6';
 import Tab7 from './pages/Tab7';
 import Tab8 from './pages/Tab8';
+import TabMetallica from './pages/TabMetallica';
+import TabNirvana from './pages/TabNirvana';
+import TabSlipknot from './pages/TabSlipknot';
+import TabBeatles from './pages/TabBeatles';
+import TabIron from './pages/TabIron';
+import TabTribo from './pages/TabTribo';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -39,6 +45,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+
 
 setupIonicReact();
 
@@ -70,6 +77,24 @@ const App: React.FC = () => (
           </Route>
           <Route  path="/tab8">
             <Tab8 />
+          </Route>
+          <Route  path="/tabMetallica">
+            <TabMetallica />
+          </Route>
+          <Route  path="/tabNirvana">
+            <TabNirvana />
+          </Route>
+          <Route  path="/tabSlipknot">
+            <TabSlipknot />
+          </Route>
+          <Route  path="/tabBeatles">
+            <TabBeatles />
+          </Route>
+          <Route  path="/tabIron">
+            <TabIron />
+          </Route>
+          <Route  path="/tabTribo">
+            <TabTribo />
           </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />

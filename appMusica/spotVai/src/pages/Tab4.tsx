@@ -6,11 +6,11 @@ const Tab4: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color="secondary">
           <IonTitle>Sua Lista</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent fullscreen color="dark">
         <IonImg src='https://i.scdn.co/image/ab67616d0000b27302e44464bcac91d2414582ab'/>
         <IonList>
           <IonItem routerLink='/Tab3'>

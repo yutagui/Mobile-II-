@@ -8,13 +8,13 @@ const Tab1: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color="secondary">
           <IonTitle>Menu</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonTitle className='ion-padding' size='large'>Bem Vindo, Guilherme</IonTitle>
-        <IonContent className='ion-padding'>O que deseja ouvir hoje?</IonContent>
+      <IonContent fullscreen color="dark">
+        <IonTitle className='ion-padding' size='large' >Bem Vindo, Guilherme</IonTitle>
+        <IonContent className='ion-padding' color="dark">O que deseja ouvir hoje?</IonContent>
 
         {/* <IonHeader collapse="condense">
           <IonToolbar>
@@ -23,8 +23,8 @@ const Tab1: React.FC = () => {
         </IonHeader> */}
 
       </IonContent>
-      <IonList>
-        <IonItem>
+      <IonList >
+        <IonItem routerLink='/tabMetallica' color="medium">
           <IonAvatar slot = 'start'>
             <IonImg src="https://logosmarcas.net/wp-content/uploads/2020/09/Metallica-Logo-650x366.png"/>
           </IonAvatar>
@@ -33,7 +33,7 @@ const Tab1: React.FC = () => {
           </IonLabel>
         </IonItem>
 
-        <IonItem>
+        <IonItem routerLink='/tabNirvana'>
           <IonAvatar slot = 'start'>
             <IonImg src="https://www.kindpng.com/picc/m/487-4871235_nirvana-band-logo-png-transparent-png.png"/>
           </IonAvatar>
@@ -43,7 +43,7 @@ const Tab1: React.FC = () => {
         </IonItem>
       
 
-      <IonItem>
+      <IonItem routerLink='/tabSlipknot' color="medium">
           <IonAvatar slot = 'start'>
             <IonImg src="https://th.bing.com/th/id/R.0a64ebd88b57e068b763be2365dc04bd?rik=teSC5MnINXyWvA&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f06%2fslipknot-s-logo.jpg&ehk=6nCyqDTPKtqkZY1ul3YyuzqoHsEdxmG%2b6Qe30SqfYjo%3d&risl=&pid=ImgRaw&r=0"/>
           </IonAvatar>
@@ -52,7 +52,7 @@ const Tab1: React.FC = () => {
           </IonLabel>
       </IonItem>
 
-      <IonItem>
+      <IonItem routerLink='/tabBeatles'>
           <IonAvatar slot = 'start'>
             <IonImg src="https://th.bing.com/th/id/R.d00e049de62f9b076eef746f607ebf1a?rik=iqBY1LKDaWd1Yw&pid=ImgRaw&r=0"/>
           </IonAvatar>
@@ -61,7 +61,7 @@ const Tab1: React.FC = () => {
           </IonLabel>
       </IonItem>
       
-      <IonItem>
+      <IonItem routerLink='/tabIron' color="medium">
           <IonAvatar slot = 'start'>
             <IonImg src="https://th.bing.com/th/id/R.31a5f8e659d99d5ace2f50675f7bfa41?rik=FqR%2f82jUZceUQg&pid=ImgRaw&r=0"/>
           </IonAvatar>
@@ -70,7 +70,7 @@ const Tab1: React.FC = () => {
           </IonLabel>
       </IonItem>
 
-      <IonItem>
+      <IonItem routerLink='/tabTribo'>
           <IonAvatar slot = 'start'>
             <IonImg src="https://th.bing.com/th/id/OIP.SGbHqKbi1sLy57hymItnqQHaHa?rs=1&pid=ImgDetMain"/>
           </IonAvatar>
